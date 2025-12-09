@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: mongodb://localhost:27017/urlshortener
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+app:
+  base-url: http://localhost:8080
